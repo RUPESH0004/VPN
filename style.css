@@ -1,0 +1,113 @@
+*{
+    margin:0%;
+    padding:0%;
+    color: black;
+    }
+body
+{
+    background-color:white ;
+}
+/* styling for navigation bar*/ 
+.nav-continer
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+    background-color: white;
+    background:none;
+
+}
+/* image or the logo which is used in the navbar  */
+.img-nav
+{
+    height: 3rem;
+    width: 20rem;
+    margin-right: 10rem;
+    margin-left: 1rem;
+}
+/* this is the main menu or the functioning which includes the all , features and pricing help  */
+.menu-nav 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:45rem;
+    margin-right: 15rem;
+    font-size : 1.2rem;
+
+
+}
+/* login button sign-in and sign-out buttons  */
+
+.login-nav
+{
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+   margin-right:10px;
+
+}
+.sign-in
+{
+    background:none;
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    font-size: 1rem;
+}
+.sign-up
+{
+    background:none;
+    height: 2rem;
+    width: 5rem;
+    border:2px solid rgb(245 56 56) ;
+    color:rgb(245 56 56);
+    border-radius:20px;
+    font-size: 1rem;
+    font-weight:750;
+}
+/* main or the page containt is going to edit or going to add the styling in the page  */
+.main-continer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+.start
+{
+  width: 30rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.start-btn
+{
+    height: 3rem;
+    width:12rem;
+    font-size: 16px;
+    background-color: rgb(245 56 56);
+    color:white;
+    border-radius: 0.8rem;
+    border: none;
+    margin-top: 5rem;
+    font-weight:700;
+}
+.feature-continer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+.feature-info
+{
+    width:30rem;
+    max-height: fit-content;
+   margin-left: 5rem;
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+}
