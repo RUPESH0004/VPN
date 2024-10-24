@@ -101,13 +101,64 @@ body
     justify-content: center;
     margin-top: 20rem;
     margin-bottom: 20rem;
+    
 }
 .feature-info
 {
-    width:30rem;
-    max-height: fit-content;
-   margin-left: 5rem;
-   display: inline-block;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.feature-img
+{
+  margin-top: 10rem;
+}
+.specification
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 10rem;
+}
+/* user counting  */
+.user-count
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15rem;
+    max-width: 70%;
+    border : 2px solid white;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    margin: 15rem;
+    border-radius: 10px;
+}
+.user
+{
+ display:flex;
+ align-items: center;
+ justify-content:space-around;
+ gap:10px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight:500;
+}
+.map
+{
+    max-width: 1200px; /* Adjust based on your preference */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;  /* Equivalent to py-20 */
+    padding-bottom: 80px;
+    
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* Equivalent to gap-5 */
+    text-align: center;
+
 }
