@@ -122,6 +122,18 @@ body
     justify-content: center;
     gap: 15px;
     margin-right: 10rem;
+    animation: Move 2s initial 5s 2 ease-in;
+
+}
+@keyframes Move {
+    from
+    {
+       right: 30%;
+    }
+    to{
+        left:50%
+    }
+    
 }
 /* user counting  */
 .user-count
